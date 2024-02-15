@@ -1,0 +1,53 @@
+[
+  // ... (previous entries)
+  {
+    "id": 4,
+    "title": "Classic Leather Office Chair",
+    "price": 199.99,
+    "description": "Upgrade your workspace with this classic leather office chair. Comfortable and stylish, perfect for long hours of work.",
+    "category": "office furniture",
+    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+    "rating": {
+      "rate": 4.4,
+      "count": 150
+    }
+  },
+  {
+    "id": 5,
+    "title": "Portable Bluetooth Speaker",
+    "price": 49.95,
+    "description": "Take your music anywhere with this portable Bluetooth speaker. Compact design with powerful audio performance.",
+    "category": "electronics",
+    "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+    "rating": {
+      "rate": 4.2,
+      "count": 120
+    }
+  },
+  {
+    "id": 6,
+    "title": "Women's Vintage Leather Wallet",
+    "price": 29.99,
+    "description": "Carry your essentials in style with this vintage leather wallet for women. Multiple compartments for organized storage.",
+    "category": "women's accessories",
+    "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+    "rating": {
+      "rate": 4.6,
+      "count": 180
+    }
+  },
+  // ... (repeat 44 more times with fictional data)
+  // Example of another instance
+  {
+    "id": 50,
+    "title": "Men's Classic Aviator Sunglasses",
+    "price": 59.99,
+    "description": "Complete your look with these classic aviator sunglasses for men. Stylish and functional for sunny days.",
+    "category": "accessories",
+    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+    "rating": {
+      "rate": 4.3,
+      "count": 160
+    }
+  }
+]
