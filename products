@@ -1,53 +1,602 @@
 [
-  // ... (previous entries)
+  {
+    "id": 1,
+    "title": "Men's Premium Leather Jacket",
+    "price": 179.99,
+    "description": "Genuine leather jacket for men. Classic style with a modern twist. Perfect for all occasions.",
+    "category": "men's clothing",
+    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+    "rating": {
+      "rate": 4.8,
+      "count": 220
+    }
+  },
+  {
+    "id": 2,
+    "title": "Women's Elegant Gold Necklace",
+    "price": 399.95,
+    "description": "Exquisite gold necklace with intricate details. A statement piece for special events.",
+    "category": "jewelry",
+    "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+    "rating": {
+      "rate": 4.9,
+      "count": 180
+    }
+  },
+  {
+    "id": 3,
+    "title": "Wireless Noise-Canceling Earbuds",
+    "price": 129.99,
+    "description": "High-quality wireless earbuds with advanced noise-canceling technology. Perfect for immersive music listening and calls on the go.",
+    "category": "electronics",
+    "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+    "rating": {
+      "rate": 4.5,
+      "count": 120
+    }
+  },
   {
     "id": 4,
-    "title": "Classic Leather Office Chair",
-    "price": 199.99,
-    "description": "Upgrade your workspace with this classic leather office chair. Comfortable and stylish, perfect for long hours of work.",
-    "category": "office furniture",
+    "title": "Classic Woven Throw Blanket",
+    "price": 29.99,
+    "description": "Cozy up with this classic woven throw blanket. Soft and warm, perfect for chilly evenings at home.",
+    "category": "home",
     "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+    "rating": {
+      "rate": 4.7,
+      "count": 150
+    }
+  },
+  {
+    "id": 5,
+    "title": "Smart Home Security Camera",
+    "price": 149.99,
+    "description": "Monitor your home with this advanced smart home security camera. HD video quality and real-time alerts for added peace of mind.",
+    "category": "electronics",
+    "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+    "rating": {
+      "rate": 4.6,
+      "count": 190
+    }
+  },
+  {
+    "id": 6,
+    "title": "Men's Casual Denim Jeans",
+    "price": 49.95,
+    "description": "Upgrade your casual style with these comfortable denim jeans for men. Versatile and perfect for everyday wear.",
+    "category": "men's clothing",
+    "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+    "rating": {
+      "rate": 4.4,
+      "count": 130
+    }
+  },
+  {
+    "id": 7,
+    "title": "Women's Vintage Leather Handbag",
+    "price": 89.99,
+    "description": "Elevate your fashion with this vintage leather handbag for women. Stylish and spacious, ideal for everyday use.",
+    "category": "women's accessories",
+    "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+    "rating": {
+      "rate": 4.2,
+      "count": 160
+    }
+  },
+  {
+    "id": 8,
+    "title": "Portable Bluetooth Speaker",
+    "price": 59.99,
+    "description": "Take your music anywhere with this portable Bluetooth speaker. Compact design with powerful audio performance.",
+    "category": "electronics",
+    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+    "rating": {
+      "rate": 4.3,
+      "count": 170
+    }
+  },
+  {
+    "id": 9,
+    "title": "Women's Comfortable Sneakers",
+    "price": 34.99,
+    "description": "Step out in comfort and style with these women's sneakers. Ideal for casual outings and everyday activities.",
+    "category": "women's shoes",
+    "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+    "rating": {
+      "rate": 4.5,
+      "count": 140
+    }
+  },
+  {
+    "id": 10,
+    "title": "Premium Quality Coffee Maker",
+    "price": 129.95,
+    "description": "Brew the perfect cup of coffee with this premium quality coffee maker. Sleek design and advanced brewing technology.",
+    "category": "home",
+    "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+    "rating": {
+      "rate": 4.8,
+      "count": 200
+    }
+  },
+  {
+    "id": 11,
+    "title": "Men's Stylish Watch",
+    "price": 199.99,
+    "description": "Add a touch of elegance with this stylish watch for men. Precision timekeeping with a sophisticated design.",
+    "category": "accessories",
+    "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+    "rating": {
+      "rate": 4.4,
+      "count": 180
+    }
+  },
+  {
+    "id": 12,
+    "title": "Cozy Plaid Throw Pillow",
+    "price": 19.99,
+    "description": "Enhance your home decor with this cozy plaid throw pillow. Soft and stylish, perfect for any room in your house.",
+    "category": "home",
+    "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+    "rating": {
+      "rate": 4.6,
+      "count": 160
+    }
+  },
+  {
+    "id": 13,
+    "title": "Women's Casual Denim Shorts",
+    "price": 39.95,
+    "description": "Stay cool and stylish with these women's casual denim shorts. Perfect for warm days and casual outings.",
+    "category": "women's clothing",
+    "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+    "rating": {
+      "rate": 4.3,
+      "count": 140
+    }
+  },
+  {
+    "id": 14,
+    "title": "Smart Fitness Tracker",
+    "price": 79.99,
+    "description": "Achieve your fitness goals with this smart fitness tracker. Track your steps, heart rate, and more for a healthier lifestyle.",
+    "category": "electronics",
+    "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+    "rating": {
+      "rate": 4.5,
+      "count": 120
+    }
+  },
+  {
+    "id": 15,
+    "title": "Men's Classic Oxford Shirt",
+    "price": 54.99,
+    "description": "Look sharp and sophisticated with this classic Oxford shirt for men. Versatile and perfect for formal or casual occasions.",
+    "category": "men's clothing",
+    "image": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
+    "rating": {
+      "rate": 4.7,
+      "count": 200
+    }
+  },
+  {
+    "id": 16,
+    "title": "Modern Desk Lamp",
+    "price": 34.95,
+    "description": "Illuminate your workspace with this modern desk lamp. Sleek design and adjustable brightness for optimal lighting.",
+    "category": "home",
+    "image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+    "rating": {
+      "rate": 4.2,
+      "count": 180
+    }
+  },
+  {
+    "id": 17,
+    "title": "Women's Elegant Evening Gown",
+    "price": 299.99,
+    "description": "Dazzle at special events with this elegant evening gown for women. Graceful design and premium fabric for a stunning look.",
+    "category": "women's clothing",
+    "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
+    "rating": {
+      "rate": 4.9,
+      "count": 220
+    }
+  },
+  {
+    "id": 18,
+    "title": "Ultra-Thin Wireless Keyboard",
+    "price": 49.99,
+    "description": "Upgrade your typing experience with this ultra-thin wireless keyboard. Comfortable and stylish for efficient work.",
+    "category": "electronics",
+    "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
+    "rating": {
+      "rate": 4.3,
+      "count": 160
+    }
+  },
+  {
+    "id": 19,
+    "title": "Men's Classic Leather Belt",
+    "price": 29.95,
+    "description": "Complete your look with this classic leather belt for men. Durable and stylish, the perfect accessory for any outfit.",
+    "category": "accessories",
+    "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+    "rating": {
+      "rate": 4.6,
+      "count": 190
+    }
+  },
+  {
+    "id": 20,
+    "title": "Stylish Stainless Steel Watch",
+    "price": 129.99,
+    "description": "Make a statement with this stylish stainless steel watch. Precision timekeeping and a bold design for a confident look.",
+    "category": "accessories",
+    "image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
+    "rating": {
+      "rate": 4.8,
+      "count": 210
+    }
+  },
+  {
+    "id": 21,
+    "title": "Women's Cozy Knit Sweater",
+    "price": 44.99,
+    "description": "Stay warm and stylish with this cozy knit sweater for women. Perfect for chilly days and comfortable lounging.",
+    "category": "women's clothing",
+    "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+    "rating": {
+      "rate": 4.5,
+      "count": 170
+    }
+  },
+  {
+    "id": 22,
+    "title": "Compact Wireless Mouse",
+    "price": 19.99,
+    "description": "Enhance your computer setup with this compact wireless mouse. Sleek design and responsive performance for easy navigation.",
+    "category": "electronics",
+    "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
     "rating": {
       "rate": 4.4,
       "count": 150
     }
   },
   {
-    "id": 5,
-    "title": "Portable Bluetooth Speaker",
-    "price": 49.95,
-    "description": "Take your music anywhere with this portable Bluetooth speaker. Compact design with powerful audio performance.",
-    "category": "electronics",
-    "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+    "id": 23,
+    "title": "Men's Sporty Running Shoes",
+    "price": 69.95,
+    "description": "Step out in style with these sporty running shoes for men. Comfortable and durable, perfect for an active lifestyle.",
+    "category": "men's shoes",
+    "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
     "rating": {
-      "rate": 4.2,
-      "count": 120
+      "rate": 4.7,
+      "count": 200
     }
   },
   {
-    "id": 6,
-    "title": "Women's Vintage Leather Wallet",
-    "price": 29.99,
-    "description": "Carry your essentials in style with this vintage leather wallet for women. Multiple compartments for organized storage.",
-    "category": "women's accessories",
-    "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+    "id": 24,
+    "title": "Vintage Leather Journal",
+    "price": 24.99,
+    "description": "Capture your thoughts in style with this vintage leather journal. Perfect for writing, sketching, and recording memories.",
+    "category": "stationery",
+    "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+    "rating": {
+      "rate": 4.2,
+      "count": 130
+    }
+  },
+  {
+    "id": 25,
+    "title": "Women's Casual Sneakers",
+    "price": 39.99,
+    "description": "Add a casual flair to your outfit with these comfortable women's sneakers. Versatile and stylish for everyday wear.",
+    "category": "women's shoes",
+    "image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
+    "rating": {
+      "rate": 4.3,
+      "count": 140
+    }
+  },
+  {
+    "id": 26,
+    "title": "Designer Aviator Sunglasses",
+    "price": 79.95,
+    "description": "Protect your eyes in style with these designer aviator sunglasses. Fashionable and functional for sunny days.",
+    "category": "accessories",
+    "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
     "rating": {
       "rate": 4.6,
       "count": 180
     }
   },
-  // ... (repeat 44 more times with fictional data)
-  // Example of another instance
   {
-    "id": 50,
-    "title": "Men's Classic Aviator Sunglasses",
-    "price": 59.99,
-    "description": "Complete your look with these classic aviator sunglasses for men. Stylish and functional for sunny days.",
+    "id": 27,
+    "title": "Modern Wall Clock",
+    "price": 29.99,
+    "description": "Update your home decor with this modern wall clock. Sleek design and accurate timekeeping for any room.",
+    "category": "home",
+    "image": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
+    "rating": {
+      "rate": 4.8,
+      "count": 220
+    }
+  },
+  {
+    "id": 28,
+    "title": "Men's Casual Slim Fit Shirt",
+    "price": 34.99,
+    "description": "Elevate your casual style with this slim-fit shirt for men. Comfortable and versatile for various occasions.",
+    "category": "men's clothing",
+    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+    "rating": {
+      "rate": 4.5,
+      "count": 190
+    }
+  },
+  {
+    "id": 29,
+    "title": "Women's Elegant Leather Gloves",
+    "price": 49.95,
+    "description": "Stay warm in style with these elegant leather gloves for women. Soft and luxurious for cold winter days.",
+    "category": "women's accessories",
+    "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+    "rating": {
+      "rate": 4.4,
+      "count": 160
+    }
+  },
+  {
+    "id": 30,
+    "title": "Smart Home Thermostat",
+    "price": 129.99,
+    "description": "Control your home's temperature with this smart home thermostat. Energy-efficient and easy to use for climate control.",
+    "category": "electronics",
+    "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+    "rating": {
+      "rate": 4.7,
+      "count": 200
+    }
+  },
+  {
+    "id": 31,
+    "title": "Women's Stylish Backpack",
+    "price": 69.99,
+    "description": "Upgrade your accessory collection with this stylish backpack for women. Functional and fashionable for daily use.",
+    "category": "women's accessories",
+    "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+    "rating": {
+      "rate": 4.6,
+      "count": 180
+    }
+  },
+  {
+    "id": 32,
+    "title": "Men's Classic Leather Wallet",
+    "price": 39.95,
+    "description": "Organize your essentials with this classic leather wallet for men. Sleek design with ample storage space.",
+    "category": "accessories",
+    "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+    "rating": {
+      "rate": 4.5,
+      "count": 160
+    }
+  },
+  {
+    "id": 33,
+    "title": "Compact Digital Camera",
+    "price": 189.99,
+    "description": "Capture moments with precision using this compact digital camera. High-resolution images and user-friendly features.",
+    "category": "electronics",
+    "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+    "rating": {
+      "rate": 4.4,
+      "count": 140
+    }
+  },
+  {
+    "id": 34,
+    "title": "Women's Classic Leather Belt",
+    "price": 29.99,
+    "description": "Complete your look with this women's classic leather belt. Versatile and stylish, perfect for any outfit.",
+    "category": "women's accessories",
+    "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+    "rating": {
+      "rate": 4.3,
+      "count": 120
+    }
+  },
+  {
+    "id": 35,
+    "title": "Men's Stylish Sunglasses",
+    "price": 64.95,
+    "description": "Shield your eyes in style with these men's stylish sunglasses. Fashionable and functional for sunny days.",
+    "category": "accessories",
+    "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+    "rating": {
+      "rate": 4.2,
+      "count": 100
+    }
+  },
+  {
+    "id": 36,
+    "title": "Portable External Hard Drive",
+    "price": 79.99,
+    "description": "Expand your storage with this portable external hard drive. High capacity and fast data transfer for all your files.",
+    "category": "electronics",
+    "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+    "rating": {
+      "rate": 4.1,
+      "count": 90
+    }
+  },
+  {
+    "id": 37,
+    "title": "Women's Casual Jogger Pants",
+    "price": 42.99,
+    "description": "Stay comfortable and stylish with these women's casual jogger pants. Perfect for workouts or casual outings.",
+    "category": "women's clothing",
+    "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+    "rating": {
+      "rate": 4.0,
+      "count": 80
+    }
+  },
+  {
+    "id": 38,
+    "title": "Wireless Gaming Mouse",
+    "price": 49.95,
+    "description": "Enhance your gaming experience with this wireless gaming mouse. Precision control and ergonomic design for long gaming sessions.",
+    "category": "electronics",
+    "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+    "rating": {
+      "rate": 4.3,
+      "count": 120
+    }
+  },
+  {
+    "id": 39,
+    "title": "Men's Casual Slip-On Shoes",
+    "price": 29.99,
+    "description": "Step into comfort with these casual slip-on shoes for men. Easy to wear and versatile for various occasions.",
+    "category": "men's shoes",
+    "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+    "rating": {
+      "rate": 4.2,
+      "count": 100
+    }
+  },
+  {
+    "id": 40,
+    "title": "Stylish Leather Laptop Bag",
+    "price": 69.99,
+    "description": "Carry your laptop in style with this stylish leather laptop bag. Functional design with ample space for all your essentials.",
+    "category": "electronics",
+    "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+    "rating": {
+      "rate": 4.1,
+      "count": 90
+    }
+  },
+  {
+    "id": 41,
+    "title": "Women's Classic Trench Coat",
+    "price": 79.95,
+    "description": "Stay chic with this classic trench coat for women. Timeless style and durable fabric for all-weather elegance.",
+    "category": "women's clothing",
+    "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+    "rating": {
+      "rate": 4.0,
+      "count": 80
+    }
+  },
+  {
+    "id": 42,
+    "title": "Compact Travel Umbrella",
+    "price": 19.99,
+    "description": "Stay dry on the go with this compact travel umbrella. Portable and durable, perfect for unexpected rain showers.",
     "category": "accessories",
     "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
     "rating": {
-      "rate": 4.3,
-      "count": 160
+      "rate": 4.5,
+      "count": 70
+    }
+  },
+  {
+    "id": 43,
+    "title": "Men's Cozy Lounge Shorts",
+    "price": 24.99,
+    "description": "Relax in style with these cozy lounge shorts for men. Soft fabric and a comfortable fit for lounging at home.",
+    "category": "men's clothing",
+    "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+    "rating": {
+      "rate": 4.6,
+      "count": 60
+    }
+  },
+  {
+    "id": 44,
+    "title": "Bluetooth In-Ear Headphones",
+    "price": 34.99,
+    "description": "Enjoy wireless music with these Bluetooth in-ear headphones. Comfortable and high-quality sound for an immersive experience.",
+    "category": "electronics",
+    "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+    "rating": {
+      "rate": 4.7,
+      "count": 50
+    }
+  },
+  {
+    "id": 45,
+    "title": "Women's Stylish Leather Backpack",
+    "price": 59.99,
+    "description": "Upgrade your backpack with this stylish leather option for women. Fashionable and functional for daily use.",
+    "category": "women's accessories",
+    "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+    "rating": {
+      "rate": 4.8,
+      "count": 40
+    }
+  },
+  {
+    "id": 46,
+    "title": "Portable Power Bank",
+    "price": 49.95,
+    "description": "Stay charged on the go with this portable power bank. High capacity for multiple device charges, perfect for travel.",
+    "category": "electronics",
+    "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+    "rating": {
+      "rate": 4.9,
+      "count": 30
+    }
+  },
+  {
+    "id": 47,
+    "title": "Men's Stylish Fedora Hat",
+    "price": 29.99,
+    "description": "Top off your look with this stylish fedora hat for men. Classic design and quality craftsmanship for a timeless accessory.",
+    "category": "accessories",
+    "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+    "rating": {
+      "rate": 4.8,
+      "count": 20
+    }
+  },
+  {
+    "id": 48,
+    "title": "Faux Fur Throw Blanket",
+    "price": 39.99,
+    "description": "Add a touch of luxury with this faux fur throw blanket. Soft and stylish, perfect for cozying up on chilly nights.",
+    "category": "home",
+    "image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+    "rating": {
+    "rate": 4.7,
+    "count": 10
+    }
+  },
+  {
+    "id": 49,
+    "title": "Women's Casual V-Neck T-Shirt",
+    "price": 19.99,
+    "description": "Upgrade your casual wardrobe with this women's casual V-neck t-shirt. Comfortable and versatile for everyday wear.",
+    "category": "women's clothing",
+    "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+    "rating": {
+      "rate": 4.6,
+      "count": 5
+    }
+  },
+  {
+    "id": 50,
+    "title": "Men's Classic Leather Gloves",
+    "price": 44.95,
+    "description": "Stay warm and stylish with these classic leather gloves for men. Quality craftsmanship and a timeless design.",
+    "category": "accessories",
+    "image": "https://fakestoreapi.com/img/71sbO6OZWyL._AC_UY879_-2.jpg",
+    "rating": {
+      "rate": 4.5,
+      "count": 3
     }
   }
 ]
